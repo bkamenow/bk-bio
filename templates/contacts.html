@@ -1,0 +1,18 @@
+ {% extends 'base-revert.html' %}
+{% block content %}
+    <h2 class="contacts">CONTACTS</h2>
+    <div class="rectangle-contacts"></div>
+    <div class="contacts-description">
+        ADDRESS<br />
+        Sofia, Bulgaria<br /><br />
+        PHONE<br />+359 877 191 965<br /><br />
+        EMAIL<br />kamenowink@gmail.com<br /><br />
+        SOCIAL<br />
+        <a  target="_blank" href="https://www.linkedin.com/in/borislav-kamenov-8169881a6/"><i class="fa-brands fa-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/bkamenow"><i class="fa-brands fa-square-github"></i></a>
+        <a target="_blank" href="https://www.facebook.com/bor8slav"><i class="fa-brands fa-square-facebook"></i></a>
+    </div>
+     <div class="arrows">
+         <a href="{% url 'web:work' %}" class="arrow-link"><i class="fa-solid fa-arrow-left"></i></a>
+     </div>
+{% endblock %}

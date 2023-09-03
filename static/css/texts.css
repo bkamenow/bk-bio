@@ -1,0 +1,187 @@
+.portfolio {
+    color: #012f55;
+    text-align: left;
+    font: 400 24px "Amiko", sans-serif;
+    position: absolute;
+    left: 465px;
+    top: 90px;
+    width: 159px;
+    height: 25px;
+}
+
+.borislav-kamenov {
+    color: #012f55;
+    text-align: center;
+    font: 400 160px "Aldrich", sans-serif;
+    position: absolute;
+    left: 140px;
+    top: 268px;
+    width: 793px;
+    height: 346px;
+}
+
+.python-web-developer {
+    color: #012f55;
+    text-align: left;
+    font: 400 32px "Amiko", sans-serif;
+    position: absolute;
+    left: 166px;
+    top: 760px;
+    width: 475px;
+    height: 34px;
+}
+
+.about-me {
+    color: #012f55;
+    text-align: left;
+    font: 400 32px "Amiko", sans-serif;
+    position: absolute;
+    left: 724px;
+    top: 760px;
+    width: 240px;
+    height: 34px;
+    transition: color 0.3s ease;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+}
+
+.about-me:hover {
+    font-size: 40px;
+    color: #87CEFA;
+}
+
+.line-1 {
+    border-style: solid;
+    border-color: #012f55;
+    border-width: 1px 0 0 0;
+    width: 192px;
+    height: 0;
+    position: absolute;
+    left: 711px;
+    top: 800px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.bio {
+    color: #012f55;
+    text-align: left;
+    font: 400 32px "Amiko", sans-serif;
+    position: absolute;
+    left: 192px;
+    top: 56px;
+    width: 79px;
+    height: 42px;
+}
+
+.about-description {
+    color: #012f55;
+    text-align: left;
+    font: 400 38px/172.4% "Amiko", sans-serif;
+    position: absolute;
+    left: 907px;
+    top: 247px;
+    width: 881px;
+    height: 556px;
+}
+
+.about-me-h2 {
+    color: #012f55;
+    text-align: left;
+    font: 400 64px "Amiko", sans-serif;
+    position: absolute;
+    left: 882px;
+    top: 50px;
+    width: 409px;
+    height: 76px;
+}
+
+.journey-description {
+    color: #012f55;
+    text-align: left;
+    font: 400 32px/152.4% "Amiko", sans-serif;
+    position: absolute;
+    left: 192px;
+    top: 227px;
+    width: 883px;
+    height: 548px;
+}
+
+.my-journey {
+    color: #012f55;
+    text-align: left;
+    font: 400 64px "Amiko", sans-serif;
+    position: absolute;
+    left: 158px;
+    top: 69px;
+    width: 440px;
+    height: 72px;
+}
+
+.skills-description {
+    color: #012f55;
+    text-align: left;
+    font: 400 24px/152.4% "Amiko", sans-serif;
+    position: absolute;
+    left: 909px;
+    top: 196px;
+    width: 881px;
+}
+
+.web-development-skills {
+    color: #012f55;
+    text-align: left;
+    font: 400 60px "Amiko", sans-serif;
+    position: absolute;
+    left: 878px;
+    top: 46px;
+    width: 885px;
+    height: 99px;
+}
+
+.projects-description {
+    color: #012f55;
+    text-align: left;
+    font: 400 40px/152.4% "Amiko", sans-serif;
+    position: absolute;
+    left: 175px;
+    top: 306px;
+    width: 883px;
+    height: 246px;
+}
+
+.projects {
+    color: #012f55;
+    text-align: left;
+    font: 400 64px "Amiko", sans-serif;
+    position: absolute;
+    left: 136px;
+    top: 86px;
+    width: 333px;
+    height: 74px;
+}
+
+.contacts-description {
+    color: #012f55;
+    text-align: left;
+    font: 400 30px/152.4% "Amiko", sans-serif;
+    position: absolute;
+    left: 1009px;
+    top: 261px;
+    width: 539px;
+    height: 632px;
+}
+.contacts-description a {
+    color: #012f55;
+}
+
+.contacts {
+    color: #012f55;
+    text-align: left;
+    font: 400 64px "Amiko", sans-serif;
+    position: absolute;
+    left: 961px;
+    top: 78px;
+    width: 341px;
+    height: 70px;
+}

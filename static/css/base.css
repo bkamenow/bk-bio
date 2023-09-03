@@ -1,0 +1,169 @@
+.section-1,
+.section-1 * {
+    box-sizing: border-box;
+}
+
+.section-1 {
+    background: #ffffff;
+    position: relative;
+    display: flex;
+}
+
+.background {
+    width: 100%;
+    position: absolute;
+    opacity: 70%;
+    transform: rotate(180deg) scale(1, 1);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.revert-background {
+    width: 100%;
+    position: absolute;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.skills-back {
+    height: 1400px;
+}
+
+.photo-container {
+    position: absolute;
+    display: flex;
+    width: 385px;
+    height: 460px;
+}
+
+.my-photo {
+    position: absolute;
+    left: 192px;
+    top: 234px;
+    display: flex;
+}
+
+.rectangle-about {
+    background: #227bad;
+    border-radius: 16px;
+    opacity: 0.800000011920929;
+    width: 902px;
+    height: 582px;
+    position: absolute;
+    left: 877px;
+    top: 219px;
+}
+
+.rectangle-journey {
+    background: #227bad;
+    border-radius: 16px;
+    opacity: 0.800000011920929;
+    width: 938px;
+    height: 486px;
+    position: absolute;
+    left: 162px;
+    top: 205px;
+    display: flex;
+}
+
+.rectangle-1 {
+    background: #4fdfff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.base-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.rectangle-projects {
+    background: #227bad;
+    border-radius: 16px;
+    opacity: 0.800000011920929;
+    width: 944px;
+    height: 338px;
+    position: absolute;
+    left: 141px;
+    top: 287px;
+    display: flex;
+}
+
+
+.rectangle-contacts {
+    background: #227bad;
+    border-radius: 16px;
+    opacity: 0.800000011920929;
+    width: 629px;
+    height: 575px;
+    position: absolute;
+    left: 1589px;
+    top: 236px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+    display: flex;
+}
+
+.section-contacts {
+    background: #4fdfff;
+    width: 1930px;
+    height: 933px;
+    position: absolute;
+    left: 1920px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+    display: flex;
+}
+
+.rectangle-4 {
+    background: #4fdfff;
+    width: 1920px;
+    height: 1400px;
+    position: absolute;
+    display: flex;
+}
+
+.rectangle-skill {
+    background: #227bad;
+    border-radius: 16px;
+    opacity: 0.800000011920929;
+    width: 949px;
+    height: 643px;
+    position: absolute;
+    left: 878px;
+    top: 168px;
+    display: flex;
+}
+
+.arrows {
+    position: fixed;
+    bottom: 20px;
+    right: 145px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow-link {
+    font-size: 60px;
+    color: #012f55;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.arrow-link:hover {
+    color: #87CEFA; /* Change the color on hover */
+    transform: scale(1.2); /* Add a slight scale increase on hover */
+}
+
+.work-link {
+    text-decoration: none;
+    color: #87CEFA;
+}

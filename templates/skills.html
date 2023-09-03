@@ -1,0 +1,35 @@
+{% extends 'base-revert.html' %}
+{% block content %}
+        <div class="web-development-skills">WEB DEVELOPMENT SKILLS</div>
+        <div class="rectangle-skill"></div>
+        <div class="skills-description">
+            <p class="skills">
+                <strong>I specialize in full-stack web development, with a focus on the following skills:</strong>
+            </p>
+            <br>
+            <p class="skills">
+                <strong>Python:</strong> In my chosen programming language, I have experience using the power of Python to build efficient Backends and automation scripts.
+            </p>
+            <br>
+            <p class="skills">
+                <strong>Django/Flask:</strong> I have а firsthand experience with popular Python frameworks
+                such as Django and Flask, which give me the power to create reliable and feature-rich web
+                applications.
+            </p>
+            <br>
+            <p class="skills">
+                <strong>HTML/CSS:</strong> I have great knowledge in crafting clean and responsive user
+                interfaces using HTML and CSS, ensuring an enjoyable browsing experience
+                across devices.
+            </p>
+            <br>
+            <p class="skills">
+                <strong>Frontend Development:</strong> I have skills in JavaScript and soon in Frontend
+                libraries, for example React.
+            </p>
+        </div>
+        <div class="arrows">
+            <a href="{% url 'web:my_journey' %}" class="arrow-link"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="{% url 'web:work' %}" class="arrow-link"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="my-journey">MY JOURNEY</div>
+    <div class="rectangle-journey"></div>
+    <div class="journey-description">
+       <p>
+           My journey into the world of programming began with my fascination for
+           problem-solving and creating digital solutions. I have a great passion for
+           Python due to its versatility and code readability.
+       </p>
+        <p>
+            Through courses, personal projects, and hands-on experience, I&#039;ve honed my skills in this language and
+            have become proficient in creating web applications that not only operate
+            seamlessly but also provide an intuitive user experience.
+        </p>
+    </div>
+
+    <div class="arrows">
+        <a href="{% url 'web:about_me' %}" class="arrow-link"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="{% url 'web:skills' %}" class="arrow-link"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+{% endblock %}

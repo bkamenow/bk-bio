@@ -1,0 +1,28 @@
+version: "3.4"
+
+services:
+  web:
+    image: bk-bio
+    build: .
+    command: gunicorn --bind=0.0.0.0:8000 bk_bio.wsgi:application
+    ports:
+      - "8000:8000"
+    env_file:
+      - .envs/.env
+    volumes:
+      - /tmp/bk_bio/static_files:/app/static_files
+
+
+  nginx:
+    image: nginx
+    ports:
+      - "81:80"
+      - "443:443"
+    volumes:
+      - /tmp/bk_bio/static_files:/home/app/web/staticfiles
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/logs:/var/log/nginx
+      - ./certbot/www:/var/www/certbot/:ro
+      - ./certbot/conf/:/etc/nginx/ssl/:ro
+    links:
+      - web

@@ -133,3 +133,4 @@ postgresql/
 
 .envs/
 .idea/
+static_files/

@@ -2,7 +2,7 @@ version: "3.4"
 
 services:
   web:
-    image: bk-bio
+    image: bkamenow/bk-bio
     build: .
     command: gunicorn --bind=0.0.0.0:8000 bk_bio.wsgi:application
     ports:

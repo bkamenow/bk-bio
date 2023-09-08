@@ -1,0 +1,101 @@
+
+
+@media screen and (max-width: 768px) {
+    .portfolio{
+        top: 20%;
+        left: 35%;
+    }
+    .borislav-kamenov{
+        top: 37%;
+        left: 10%;
+        font-size: 12vw;
+    }
+
+    .python-web-developer{
+        left: 12%;
+        font-size: 2.5vw;
+    }
+
+    .about-me{
+        left: 50%;
+        font-size: 2.5vw;
+    }
+
+    .bio{
+        opacity: 0;
+    }
+
+    .about-me-h2{
+        font-size: 32px;
+        left: 55%;
+        top: 5%;
+    }
+
+    .about-description{
+        left: 53%;
+        top: 12%;
+        font-size: 20px;
+
+    }
+    .my-photo{
+        width: 200px;
+        top: 55%;
+        left: 8%;
+    }
+
+    .arrows {
+        right: 46px;
+    }
+
+    .my-journey{
+        font-size: 32px;
+        top: 5%;
+    }
+
+    .journey-description{
+        font-size: 25px;
+        width: 500px;
+        top: 15%;
+    }
+
+    .web-development-skills{
+        font-size: 32px;
+        top: 5%;
+        left: 8%;
+    }
+
+    .skills-description {
+        font-size: 20px;
+        left: 8%;
+    }
+
+    .projects{
+        font-size: 32px;
+        top: 15%;
+    }
+
+    .projects-description{
+        font-size: 26px;
+        width: 520px;
+    }
+
+    .contacts {
+        font-size: 32px;
+        top: 10%;
+        left: 10%;
+    }
+
+    .contacts-description{
+        font-size: 26px;
+        left: 10%;
+    }
+
+
+
+
+}
+
+
+
+
+

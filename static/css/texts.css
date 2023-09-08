@@ -1,66 +1,53 @@
 .portfolio {
     color: #012f55;
     text-align: left;
-    font: 400 24px "Amiko", sans-serif;
+    font: 400 1.5vw "Amiko", sans-serif;
     position: absolute;
-    left: 465px;
-    top: 90px;
-    width: 159px;
-    height: 25px;
+    left: 25%;
+    top: 10%;
+    width: 15%;
+    height: auto;
 }
 
 .borislav-kamenov {
     color: #012f55;
     text-align: center;
-    font: 400 160px "Aldrich", sans-serif;
+    font: 400 10vw "Aldrich", sans-serif;
     position: absolute;
-    left: 140px;
-    top: 268px;
-    width: 793px;
-    height: 346px;
+    top: 25%;
+    width: 60%;
+    height: auto;
 }
 
 .python-web-developer {
     color: #012f55;
     text-align: left;
-    font: 400 32px "Amiko", sans-serif;
+    font: 400 2vw "Amiko", sans-serif;
     position: absolute;
-    left: 166px;
-    top: 760px;
-    width: 475px;
-    height: 34px;
+    left: 7%;
+    top: 80%;
+    width: 40%;
+    height: auto;
 }
 
 .about-me {
     color: #012f55;
     text-align: left;
-    font: 400 32px "Amiko", sans-serif;
+    font: 400 2vw "Amiko", sans-serif;
     position: absolute;
-    left: 724px;
-    top: 760px;
-    width: 240px;
-    height: 34px;
+    left: 40%;
+    top: 80%;
+    width: 30%;
+    height: auto;
     transition: color 0.3s ease;
     text-decoration-thickness: 1px;
     text-underline-offset: 10px;
+
 }
 
 .about-me:hover {
-    font-size: 40px;
+    font-size: 2.5vw;
     color: #87CEFA;
-}
-
-.line-1 {
-    border-style: solid;
-    border-color: #012f55;
-    border-width: 1px 0 0 0;
-    width: 192px;
-    height: 0;
-    position: absolute;
-    left: 711px;
-    top: 800px;
-    transform-origin: 0 0;
-    transform: rotate(0deg) scale(1, 1);
 }
 
 .bio {
@@ -68,10 +55,12 @@
     text-align: left;
     font: 400 32px "Amiko", sans-serif;
     position: absolute;
-    left: 192px;
-    top: 56px;
-    width: 79px;
-    height: 42px;
+    left: 18%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 300px;
+    top: 15%;
+    margin: 20px auto;
 }
 
 .about-description {
@@ -79,10 +68,16 @@
     text-align: left;
     font: 400 38px/172.4% "Amiko", sans-serif;
     position: absolute;
-    left: 907px;
-    top: 247px;
-    width: 881px;
-    height: 556px;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1000px;
+    top: 28%;
+    background-color: #227bad;
+    border-radius: 16px;
+    opacity: 0.800000011920929;
+    padding: 20px;
+    margin: 20px auto;
 }
 
 .about-me-h2 {
@@ -90,21 +85,29 @@
     text-align: left;
     font: 400 64px "Amiko", sans-serif;
     position: absolute;
-    left: 882px;
-    top: 50px;
-    width: 409px;
-    height: 76px;
+    left: 62%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    top: 15%;
+    margin: 20px auto;
 }
 
 .journey-description {
     color: #012f55;
     text-align: left;
-    font: 400 32px/152.4% "Amiko", sans-serif;
+    font: 400 40px/1.524 "Amiko", sans-serif;
     position: absolute;
-    left: 192px;
-    top: 227px;
-    width: 883px;
-    height: 548px;
+    width: 100%;
+    max-width: 883px;
+    background-color: #227bad;
+    border-radius: 16px;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    left: 9%;
+    top: 20%;
 }
 
 .my-journey {
@@ -112,42 +115,59 @@
     text-align: left;
     font: 400 64px "Amiko", sans-serif;
     position: absolute;
-    left: 158px;
-    top: 69px;
-    width: 440px;
-    height: 72px;
+    left: 9%;
+    top: 10%;
+    width: 90%;
+    height: auto;
+    max-width: 440px;
 }
 
 .skills-description {
     color: #012f55;
     text-align: left;
-    font: 400 24px/152.4% "Amiko", sans-serif;
+    font: 400 34px "Amiko", sans-serif;
     position: absolute;
-    left: 909px;
-    top: 196px;
-    width: 881px;
+    width: 90%;
+    max-width: 881px;
+    height: auto;
+    background-color: #227bad;
+    border-radius: 16px;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    left: 45%;
+    top: 13%;
 }
 
 .web-development-skills {
     color: #012f55;
     text-align: left;
-    font: 400 60px "Amiko", sans-serif;
+    font: 400 50px "Amiko", sans-serif;
     position: absolute;
-    left: 878px;
-    top: 46px;
-    width: 885px;
-    height: 99px;
+    left: 45%;
+    top: 7%;
+    width: 90%;
+    height: auto;
+    max-width: 885px;
 }
 
 .projects-description {
     color: #012f55;
     text-align: left;
-    font: 400 40px/152.4% "Amiko", sans-serif;
+    font: 400 47px "Amiko", sans-serif;
     position: absolute;
-    left: 175px;
-    top: 306px;
-    width: 883px;
-    height: 246px;
+    width: 100%;
+    max-width: 883px;
+    height: auto;
+    background-color: #227bad;
+    border-radius: 16px;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    left: 7%;
+    top: 29%;
 }
 
 .projects {
@@ -155,33 +175,45 @@
     text-align: left;
     font: 400 64px "Amiko", sans-serif;
     position: absolute;
-    left: 136px;
-    top: 86px;
-    width: 333px;
-    height: 74px;
+    left: 7%;
+    top: 18%;
+    width: 90%;
+    height: auto;
 }
 
 .contacts-description {
     color: #012f55;
     text-align: left;
-    font: 400 30px/152.4% "Amiko", sans-serif;
+    font: 400 42px "Amiko", sans-serif;
     position: absolute;
-    left: 1009px;
-    top: 261px;
-    width: 539px;
-    height: 632px;
-}
-.contacts-description a {
-    color: #012f55;
+    width: 70%;
+    max-width: 800px;
+    height: auto;
+    background-color: #227bad;
+    border-radius: 16px;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    left: 45%;
+    top: 20%;
 }
 
+.contacts-description a {
+    color: #012f55;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+.contacts-description a:hover{
+    color: #87CEFA;
+    transform: scale(1.2);
+}
 .contacts {
     color: #012f55;
     text-align: left;
     font: 400 64px "Amiko", sans-serif;
     position: absolute;
-    left: 961px;
-    top: 78px;
-    width: 341px;
-    height: 70px;
+    left: 45%;
+    top: 10%;
+    width: 20%;
+    height: auto;
 }

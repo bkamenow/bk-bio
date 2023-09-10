@@ -55,7 +55,7 @@
     text-align: left;
     font: 400 32px "Amiko", sans-serif;
     position: absolute;
-    left: 18%;
+    left: 17.5%;
     transform: translateX(-50%);
     width: 90%;
     max-width: 300px;
@@ -66,13 +66,13 @@
 .about-description {
     color: #012f55;
     text-align: left;
-    font: 400 38px/172.4% "Amiko", sans-serif;
+    font: 400 32px/172.4% "Amiko", sans-serif;
     position: absolute;
-    left: 70%;
+    left: 63%;
     transform: translateX(-50%);
     width: 90%;
-    max-width: 1000px;
-    top: 28%;
+    max-width: 730px;
+    top: 24%;
     background-color: #227bad;
     border-radius: 16px;
     opacity: 0.800000011920929;
@@ -83,9 +83,9 @@
 .about-me-h2 {
     color: #012f55;
     text-align: left;
-    font: 400 64px "Amiko", sans-serif;
+    font: 400 47px "Amiko", sans-serif;
     position: absolute;
-    left: 62%;
+    left: 59.5%;
     transform: translateX(-50%);
     width: 90%;
     max-width: 600px;
@@ -96,7 +96,7 @@
 .journey-description {
     color: #012f55;
     text-align: left;
-    font: 400 40px/1.524 "Amiko", sans-serif;
+    font: 400 32px/1.524 "Amiko", sans-serif;
     position: absolute;
     width: 100%;
     max-width: 883px;
@@ -113,10 +113,10 @@
 .my-journey {
     color: #012f55;
     text-align: left;
-    font: 400 64px "Amiko", sans-serif;
+    font: 400 47px "Amiko", sans-serif;
     position: absolute;
     left: 9%;
-    top: 10%;
+    top: 12%;
     width: 90%;
     height: auto;
     max-width: 440px;
@@ -125,7 +125,7 @@
 .skills-description {
     color: #012f55;
     text-align: left;
-    font: 400 34px "Amiko", sans-serif;
+    font: 400 27px "Amiko", sans-serif;
     position: absolute;
     width: 90%;
     max-width: 881px;
@@ -143,7 +143,7 @@
 .web-development-skills {
     color: #012f55;
     text-align: left;
-    font: 400 50px "Amiko", sans-serif;
+    font: 400 47px "Amiko", sans-serif;
     position: absolute;
     left: 45%;
     top: 7%;
@@ -155,7 +155,7 @@
 .projects-description {
     color: #012f55;
     text-align: left;
-    font: 400 47px "Amiko", sans-serif;
+    font: 400 37px "Amiko", sans-serif;
     position: absolute;
     width: 100%;
     max-width: 883px;
@@ -167,16 +167,16 @@
     margin: 20px auto;
     box-sizing: border-box;
     left: 7%;
-    top: 29%;
+    top: 32%;
 }
 
 .projects {
     color: #012f55;
     text-align: left;
-    font: 400 64px "Amiko", sans-serif;
+    font: 400 47px "Amiko", sans-serif;
     position: absolute;
     left: 7%;
-    top: 18%;
+    top: 25%;
     width: 90%;
     height: auto;
 }
@@ -184,10 +184,10 @@
 .contacts-description {
     color: #012f55;
     text-align: left;
-    font: 400 42px "Amiko", sans-serif;
+    font: 400 32px "Amiko", sans-serif;
     position: absolute;
     width: 70%;
-    max-width: 800px;
+    max-width: 518px;
     height: auto;
     background-color: #227bad;
     border-radius: 16px;
@@ -210,10 +210,10 @@
 .contacts {
     color: #012f55;
     text-align: left;
-    font: 400 64px "Amiko", sans-serif;
+    font: 400 47px "Amiko", sans-serif;
     position: absolute;
     left: 45%;
-    top: 10%;
+    top: 13%;
     width: 20%;
     height: auto;
 }

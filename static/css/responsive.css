@@ -26,67 +26,72 @@
     }
 
     .about-me-h2{
-        font-size: 32px;
-        left: 55%;
+        font-size: 22px;
+        left: 51%;
         top: 5%;
     }
 
     .about-description{
-        left: 53%;
+        left: 50%;
         top: 12%;
-        font-size: 20px;
+        font-size: 12px;
 
     }
     .my-photo{
-        width: 200px;
-        top: 55%;
+        width: 150px;
+        top: 45%;
         left: 8%;
     }
 
     .arrows {
         right: 46px;
     }
+    .arrow-link{
+        font-size: 26px;
+    }
 
     .my-journey{
-        font-size: 32px;
-        top: 5%;
+        font-size: 22px;
+        top: 10%;
     }
 
     .journey-description{
-        font-size: 25px;
-        width: 500px;
+        font-size: 12px;
+        width: 70%;
         top: 15%;
     }
 
     .web-development-skills{
-        font-size: 32px;
-        top: 5%;
+        font-size: 22px;
+        top: 10%;
         left: 8%;
     }
 
     .skills-description {
-        font-size: 20px;
+        font-size: 12px;
+        width: 70%;
         left: 8%;
     }
 
     .projects{
-        font-size: 32px;
+        font-size: 22px;
         top: 15%;
     }
 
     .projects-description{
-        font-size: 26px;
-        width: 520px;
+        font-size: 15px;
+        width: 70%;
     }
 
     .contacts {
-        font-size: 32px;
+        font-size: 22px;
         top: 10%;
         left: 10%;
     }
 
     .contacts-description{
-        font-size: 26px;
+        font-size: 15px;
+        width: 70%;
         left: 10%;
     }
 
